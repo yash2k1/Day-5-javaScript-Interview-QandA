@@ -1,0 +1,60 @@
+body{
+    background:  rgb(82, 82, 213);
+    font-size: 28px;
+}
+.container{
+    width: 90%;
+    border-bottom: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    width: fit-content;
+    color: red;
+    margin: auto;
+    border-bottom:2px solid rgb(255, 0, 0);
+}
+#changeText{
+    width: fit-content;
+    font-size: 50px;
+    color: red;
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+cursor: pointer;
+}
+.ans{
+    margin-top: 20px;
+    color: white;
+}
+h3{
+    color: red;
+}
+
+.img{
+ display: flex;
+ max-height: 300px;
+ max-width: 500px;
+ background-position: center;
+ background-size: cover;
+ margin: auto;
+ margin-bottom: 20px;
+}
+table{
+    border: 2px solid black;
+}
+
+table tr:nth-child(n){
+    background:white;
+    color:black;
+}
+table tr:nth-child(1){
+    background:white;
+    color:rgb(245, 0, 0);
+}
+table td:nth-child(1){
+ text-align: center;
+    
+}

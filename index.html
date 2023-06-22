@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Day-5-javaScript-Interview-QandA</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <h1>DAY 5 of JS Q/A</h1>
+
+    <!-- question 1 -->
+    <div class="container">
+        <div class="question">
+            Que.1 Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating
+            every second?
+        </div>
+
+        <div class="ans">
+
+            <h1 id="clock1">Start Clock</h1>
+        </div>
+    </div>
+    <!-- question 2 -->
+    <div class="container">
+        <div class="question">
+            Que.2 Create an HTML page having content as Hello world and a button named Replace Text. When user will
+            click on this button page content should be changed to "Welcome to Elevation academy"?
+        </div>
+        <div class="ans">
+            <h1 id="changeText">Hello world</h1>
+        </div>
+
+    </div>
+    <!-- question 3 -->
+    <div class="container">
+        <div class="question">
+            Ques.3 Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on
+            the screen above button
+        </div>
+
+        <button id="newHeadingBtn" onclick="newHeadingFunc()">click here</button>
+
+    </div>
+    <!-- question 4 -->
+    <div class="container">
+        <div class="question">
+            Ques.4 Write code to get 1st H1 element from a webpage using DOM?
+        </div>
+        <div class="ans">
+            <pre>
+let count=0;
+getMeH1Tag.addEventListener('click',()=>{
+    if(h1Tags[count]===undefined) count=0;
+    h1Tag.textContent=h1Tags[count].textContent + `(and this is the ${count+1} h1 tag)`;
+    count++;
+})
+</pre>
+            <div id="h1Tag"></div>
+            <button id="getMeH1Tag">get Me H1 Tags</button>
+        </div>
+    </div>
+    <!-- question 5 -->
+    <div class="container">
+        <div class="question">
+            Ques.5 Create an HTML page having content as Hello world and a button named "Hide Text." When user will
+            click on this button hide the "Hello World" text ?
+        </div>
+
+        <div class="ans">
+         <h1 id='ques5' >Hello World</h1>
+         <button id="hideTextBtn" onclick="hideTextFunc()" >Hide Text.</button>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
